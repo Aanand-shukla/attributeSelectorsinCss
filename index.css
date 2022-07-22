@@ -1,0 +1,43 @@
+/* all words in which www is present */
+a[href *= www]{
+    color: yellow;
+}
+/* starts with h word */
+a[href ^= h]{
+    color: maroon;
+}
+/* end with cu */
+a[href$= cu]{
+    background-color: #e8f0fe;
+    color: darkslateblue;
+}
+input[ type= text]{
+    background-color:  #e8f0fe;
+    color: red;
+}
+input[ type= email]{
+    background-color:  #e8f0fe;
+    color: khaki;
+}
+input[ type= submit]{
+    background-color:  #e8f0fe;
+    color: red;
+}
+textarea{
+  background-color:  #e8f0fe;
+  color:blue;  
+}
+input[ type= file]{
+    background-color:  #e8f0fe;
+    color: khaki;
+}
+input[ type= number]{
+    background-color:  #e8f0fe;
+    color: blueviolet;
+}
+option{
+    color:aqua;
+    background-color:#e0f8fe ;
+}
+
+
